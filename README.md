@@ -1,21 +1,6 @@
-# LogicDepthAI
+# TimeGate
 
-LogicDepthAI is a machine learning-based approach to analyze and predict logic depth in RTL designs. It integrates Python for data processing and visualization, along with EDA Playground for RTL simulations.
-
-## Problem Statement
-Predicting logic depth in digital circuits is crucial for performance optimization. Traditional methods require extensive simulations and manual analysis. This project automates the process using machine learning, reducing effort and improving accuracy.
-
-## Approach Used
-The model utilizes a Random Forest Regressor to predict logic depth based on features like Fan-in, Fan-out, Gate Count, Path Length, and Flip-Flops. Data is preprocessed with standard scaling, and training is done using scikit-learn. The approach ensures robustness and adaptability to different circuit configurations.
-
-## Proof of Correctness
-The model's accuracy is validated using Mean Absolute Error (MAE) and R-squared (R²) metrics. The scatter plot comparing actual vs. predicted values and the histogram of prediction errors confirm that the model reliably estimates logic depth.
-
-## Complexity Analysis
-Training complexity depends on the number of trees in the Random Forest. Each tree operates in O(n log n) time, making the overall training complexity approximately O(m * n log n), where m is the number of trees and n is the dataset size. Prediction is efficient, with an average time complexity of O(log n) per sample.
-
-## Alternatives Considered
-Other regression models like XGBoost and Neural Networks were considered but were either computationally expensive or required more data for training. Random Forest was chosen for its balance between accuracy and efficiency.
+TimeGate is a machine learning-based approach to analyze and predict logic depth in RTL designs. It integrates Python for data processing and visualization, along with EDA Playground for RTL simulations.
 
 ## Setup & Installation
 1. Install Python (version 3.8 or higher).
