@@ -5,9 +5,11 @@ TimeGate is a machine learning-based approach to analyze and predict logic depth
 ## Setup & Installation
 1. Install Python (version 3.8 or higher).
 2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+ numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
 3. Ensure access to [EDA Playground](https://www.edaplayground.com/) for running RTL modules.
 
 ## Running the Code
